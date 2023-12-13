@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yazhini web developer Personal Blog</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="light-theme">
+
+  <!--
+    - #HEADER
+  -->
+
+  <header>
+
+    <div class="container">
+
+      <nav class="navbar">
+
+        
+
+        <div class="btn-group">
+
+          <button class="theme-btn theme-btn-mobile light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+          <button class="nav-menu-btn">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="flex-wrapper">
+
+          <ul class="desktop-nav">
+
+            <li>
+              <a href="#" class="nav-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#" class="nav-link">About Me</a>
+            </li>
+
+            <li>
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+
+          </ul>
+
+          <button class="theme-btn theme-btn-desktop light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="mobile-nav">
+
+          <button class="nav-close-btn">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <div class="wrapper">
+
+            <p class="h3 nav-title">Main Menu</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">About Me</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Contact</a>
+              </li>
+            </ul>
+
+          </div>
+
+        
+
+        </div>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+
+    <!--
+      - #HERO SECTION
+    -->
+
+    <div class="hero">
+
+      <div class="container">
+
+        <div class="left">
+
+          <h1 class="h1">
+            Hi, I'm <b>Yazhini&nbsp;SivaSubramaniam</b>.
+            <br>Web Developer
+          </h1>
+
+          <p class="h3">
+            Specialized in <abbr title="Accessibility"></abbr>
+            and Web development
+          </p>
+
+          <div class="btn-group">
+            <a href="#" class="btn btn-primary">Contact Me</a>
+            <a href="#" class="btn btn-secondary">About Me</a>
+          </div>
+
+        </div>
+
+        <div class="right">
+
+          <div class="pattern-bg"></div>
+          <div class="img-box">
+            <img src="./assets/images/hero.png" alt="Julia Walker" class="hero-img">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+    <div class="main">
+
+      <div class="container">
+
+        <!--
+          - BLOG SECTION
+        -->
+
+        <div class="blog">
+
+          <h2 class="h2">Latest Blog Post</h2>
+
+          <div class="blog-card-group">
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/blog-1.png" alt="Building microservices with Dropwizard, MongoDB & Docker"
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Database</button>
+
+                <h3>
+                  <a href="#" class="h3">
+                    Building Student database using Nodejs and MongoDB
+                  </a>
+                </h3>
+
+                <p class="blog-text">
+"Create a robust student database system using Node.js and MongoDB, offering seamless data management and retrieval for educational institutions. Utilize the power of these technologies to organize, track, and efficiently handle student information."
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Julia Walker" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Yazhini S</a>
+
+                    <p class="text-sm">
+                      <time datetime="2022-01-17">Jan 17, 2021</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT3M">5 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/blog-2.png" alt="Fast web page loading on a $20 feature phone" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Web Performance</button>
+
+                <h3><a href="" class="h3">Fast web page and Low cost web pages service</a></h3>
+
+                <p class="blog-text">
+                  "Deliver lightning-fast web pages with our optimized service, ensuring exceptional speed and performance for your online presence. Achieve cost-efficiency without compromising quality, offering budget-friendly web solutions tailored to your needs."
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Julia walker" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Yazhini S</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-12-10">Jan 29, 2022</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT2M">2 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/blog-3.png" alt="Accessibility Tips for Web Developers" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Social Media</button>
+
+                <h3><a href="" class="h3">Active in Social Media </a></h3>
+
+                <p class="blog-text">
+                  "Stay engaged and connected across various social media platforms, fostering a vibrant online presence. Consistently interact, share valuable content, and build a thriving community to enhance brand visibility and engagement."
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Julia walker" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Yazhini S</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-11-28">Nov 28, 2021</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT4M">4 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/blog-4.png" alt="Dynamically Securing Databases using Hashicorp Vault"
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">App Development</button>
+
+                <h3><a href="" class="h3">Dynamically Storing Databases using Android Studio</a></h3>
+
+                <p class="blog-text">
+                  "Develop a dynamic Android app in Android Studio for seamless database integration, enabling real-time data storage, retrieval, and updates. Utilize efficient coding practices to create a responsive interface for effective user interaction."
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Julia walker" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Yazhini S</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-11-20">Nov 20, 2021</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT4M">4 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+           
+
+
+            
+
+
+           
+
+
+           
+
+
+          
+
+
+
+          </div>
+
+          <button class="btn load-more">Load More</button>
+
+        </div>
+
+
+
+
+
+        <!--
+          - ASIDE
+        -->
+
+        <div class="aside">
+
+          <div class="topics">
+
+            <h2 class="h2">Topics</h2>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="server-outline"></ion-icon>
+              </div>
+
+              <p>Database</p>
+            </a>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="accessibility-outline"></ion-icon>
+              </div>
+
+              <p>Accessibility</p>
+            </a>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="rocket-outline"></ion-icon>
+              </div>
+
+              <p>Web Performance</p>
+            </a>
+
+          </div>
+
+          <div class="tags">
+
+            <h2 class="h2">Tags</h2>
+
+            <div class="wrapper">
+
+              <button class="hashtag">#mongodb</button>
+              <button class="hashtag">#nodejs</button>
+              <button class="hashtag">#Appdevelopment</button>
+              <button class="hashtag">#Nodejs</button>
+              <button class="hashtag">#Javascript</button>
+              <button class="hashtag">#Saas</button>
+              <button class="hashtag">#optimize</button>
+              <button class="hashtag">#performance</button>
+
+            </div>
+
+          </div>
+
+          <div class="contact">
+
+            <h2 class="h2">Let's Talk</h2>
+
+            <div class="wrapper">
+
+              <p>
+                Do you want to learn more about how I can help your company overcome problems? Let us have a
+                conversation.
+              </p>
+
+              <ul class="social-link">
+
+                <li>
+                  <a href="#" class="icon-box discord">
+                    <ion-icon name="logo-discord"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="icon-box twitter">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="icon-box facebook">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+          <div class="newsletter">
+
+            <h2 class="h2">Contact Us</h2>
+
+            <div class="wrapper">
+
+              <p>
+                "Reach out through our contact form or email us directly for any inquiries or assistance. We're here to help and eager to hear from you!"   </p>
+
+              <form action="#">
+                <input type="email" name="email" placeholder="Email Address" required>
+
+                <button type="submit" class="btn btn-primary">Contact Me</button>
+              </form>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+
+
+
+
+  <!--
+    - #FOOTER
+  -->
+
+  <footer>
+
+    <div class="container">
+
+      <div class="wrapper">
+
+        
+
+        <p class="footer-text">
+          Learn about Web accessibility, Web performance, and Database management.
+        </p>
+
+      </div>
+
+      <div class="wrapper">
+
+        <p class="footer-title">Quick Links</p>
+
+        <ul>
+
+        
+
+          <li>
+            <a href="#" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="wrapper">
+
+        <p class="footer-title">Legal Things</p>
+
+        <ul>
+
+          <li>
+            <a href="#" class="footer-link">Privacy Notice</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Cookie Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms Of Use</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  
+
+  </footer>
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
